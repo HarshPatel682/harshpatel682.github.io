@@ -1,14 +1,16 @@
 body 
 {
+    
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 .container1 
 {
+    position: fixed;
     background: #ff4f4f;
     width: 100%;
-    height: 750px;
+    height: 800px;
 }
 
 .bubbles
@@ -29,7 +31,7 @@ body
     height: 20px;
     background: rgba(255, 255, 255, .4);
     animation: animate 15s linear infinite;
-    bottom: -100px;
+    bottom: -10px;
 }
 
 .bubbles li:nth-child(1)
@@ -92,7 +94,7 @@ body
     left: 50%;
     width: 25px;
     height: 25px;
-    animation-delay: 9s;
+    animation-delay: 5s;
     animation-duration: 45px;
 }
 .bubbles li:nth-child(9)
