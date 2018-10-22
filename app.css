@@ -31,9 +31,8 @@ body
     height: 20px;
     background: rgba(255, 255, 255, .4);
     animation: animate 15s linear infinite;
-    bottom: -10px;
+    bottom: -150px;
 }
-
 .bubbles li:nth-child(1)
 {
     left: 25%;
@@ -41,7 +40,6 @@ body
     height: 80px;
     animation-delay: 0s;
 }
-
 .bubbles li:nth-child(2)
 {
     left: 10%;
@@ -57,7 +55,6 @@ body
     height: 25px;
     animation-delay: 4s;
 }
-
 .bubbles li:nth-child(4)
 {
     left: 40%;
@@ -73,7 +70,6 @@ body
     height: 50px;
     animation-delay: 4s;
 }
-
 .bubbles li:nth-child(6)
 {
     left: 55%;
@@ -88,7 +84,6 @@ body
     height: 150px;
     animation-delay: 7s;
 }
-
 .bubbles li:nth-child(8)
 {
     left: 50%;
@@ -105,7 +100,6 @@ body
     animation-delay: 2s;
     animation-duration: 35px;
 }
-
 .bubbles li:nth-child(10)
 {
     left: 85%;
